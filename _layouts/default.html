@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+
+  <!-- End Google Tag Manager (noscript) -->
 
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    
+    {{ content }}
 
     {% include footer.html %}
 
-  </body>
+    <!-- SCRIPTS -->
+    {% include scripts.html %}
 
-</html>
+  </body>
+  </html>

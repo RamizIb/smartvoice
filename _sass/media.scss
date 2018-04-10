@@ -1,0 +1,49 @@
+@media screen and (min-width: 500px) {
+
+
+}
+
+@media screen and (min-width: 700px) {
+
+  .navbar__ul-top {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .navbar__ul-mobile {
+    display: none;
+  }
+
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container-footer {
+
+    .footer__brand {
+      width: 40%;
+    }
+
+    .footer__nav {
+      width: 20%;
+    }
+
+    .footer__contact {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+}

@@ -1,0 +1,21 @@
+.start-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  margin: 0 auto;
+
+  a {
+
+  }
+}
+
+.start-block__title {
+  text-align: center;
+}
+
+.start-block__info {
+  text-align: center;
+  margin-bottom: 25px;
+}

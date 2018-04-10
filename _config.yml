@@ -12,6 +12,7 @@ name: Smart Voice
 title: Smart Voice
 email: admin@smartvoice.pro
 author: RamizIb
+logo: assets/img/logo-resize.png
 
 description: > # this means to ignore newlines until "baseurl:"
   Лучшие голосовые решения для вашего бизнеса
@@ -57,15 +58,9 @@ sitemap:
     priority_name: "priority"
 
 # Menu
-menu:
-  - url: /parents/
-    name: Родителям
-  - url: /review/
-    name: Обзоры
-  - url: /compilation/
-    name: Подборки
-  - url: /rating-store/
-    name: Рейтинг
+# menu:
+#   - url: /cat/
+#     name: Раздел
 
 # Collections
 collections:
